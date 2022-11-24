@@ -20,6 +20,8 @@ class _TabsScreenState extends State<TabsScreen> {
   @override
   void initState() {
     super.initState();
+
+    //keep array outside init
     _pages = [
       {
         'page': CategoriesScreen(),
